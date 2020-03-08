@@ -1,0 +1,123 @@
+
+header ul {
+    margin: 0;
+}
+
+header a,
+header li {
+    padding: 1.4rem 0;
+    color: #777;
+    font-weight: bold;
+}
+.bg-dark {
+    background-color: rgba(22, 22, 22, 0.5) !important
+  }
+
+.navbar {
+    position: fixed-top;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 0.5rem;
+  }
+
+
+.masthead {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(22, 22, 22, 0) 0%, rgba(22, 22, 22, 0) 50%);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  
+  .masthead h1 {
+    font-family: 'Varela Round';
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.8rem;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.5));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    clip: text;
+  }
+  
+  .masthead h2 {
+    max-width: 20rem;
+    font-size: 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .masthead h1 {
+      font-size: 4rem;
+      line-height: 4rem;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .masthead {
+      height: 100vh;
+      padding: 0;
+    }
+    .masthead h1 {
+      font-size: 6.5rem;
+      line-height: 6.5rem;
+      letter-spacing: 0.8rem;
+    }
+    .masthead h2 {
+      max-width: 30rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  .about-section {
+    padding-top: 0rem;
+    background:  linear-gradient(to bottom, rgba(22, 22, 22, 0.5) 50%, rgba(22, 22, 22, 0.6) 60%);
+
+    
+  }
+  
+  .data-section {
+    background:  linear-gradient(to bottom, rgba(22, 22, 22, 0.6) 60%, rgba(22, 22, 22, 1) 100%);
+  }
+  .about-section {
+    margin-bottom: 0rem;
+  }
+
+body{
+  color: rgba(255, 255, 255, 1);
+  background: url('../img/pond_hockey.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.dtsp-searchPanes{
+  background-color: rgba(22, 22, 22, 0.5);
+}
+
+.dataTables-scrollBody{
+  background-color: rgba(22, 22, 22, 0.5);
+}
+
+div.dtsp-searchPane div.dataTables_scrollBody {
+  padding: 2px;
+  border: 2px rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+}
+
+.text-white-75 {
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.node {color: rgba(255, 255, 255, 0.829)}
+
+.link { stroke: rgba(255, 255, 255, 0.75); stroke-opacity: .6; stroke-width: 1px; }
